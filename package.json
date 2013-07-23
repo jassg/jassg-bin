@@ -25,6 +25,7 @@
 		"jassg": "bin/jassg"
 	},
 	"dependencies": {
-		"commander": "~1.0"
+		"commander": "~1.0",
+		"jassg-core": "~0.0.1"
 	}
 }
