@@ -1,0 +1,30 @@
+{
+	"name": "jassg",
+	"description": "Just another static site generator",
+	"homepage": "http://jassg.com",
+	"bugs": {
+		"url": "https://github.com/jassg/jassg-bin/issues",
+		"email": "info@jassg.com"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jassg/jassg-bin.git"
+	},
+	"keywords": ["node","static","site","generator","html","markdown","blog","jassg"],
+	"version": "0.0.1",
+	"author": {
+		"name": "Florian Krauthan",
+		"email": "info@jassg.com",
+		"url": "http://fkrauthan.de"
+	},
+	"engines": [
+		"node >= 0.8.0"
+	],
+	"bin": {
+		"jassg": "bin/jassg"
+	},
+	"dependencies": {
+		"commander": "~1.0"
+	}
+}
